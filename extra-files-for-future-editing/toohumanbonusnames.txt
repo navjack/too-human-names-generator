@@ -1,0 +1,245 @@
+Mastery: Idunn's Favor
+Mastery: Heal Effectiveness
+Mastery: Grenade Damage
+Mastery: Unerring Strike
+Mastery: Storm of Mortal Wounds
+Loot Drop Chance
+Loot Quality
+1-Handed Critical
+1-Handed Damage
+2-Handed Damage
+Air Melee Damage
+Ballistic Juggle Time
+Blunt Resistance
+Equipment State
+Cannon Damage
+Cannon Range
+Total Armor
+Dual Wield Melee Damage
+Hammer Damage
+Hammer Knockback
+Hammer Juggle Radius
+Hammer Slide Distance
+Hammer Fierce Range
+Healing Effectiveness
+Hybrid Damage
+Hybrid Radius
+Laser Damage
+Laser Penetration Rate
+Melee Juggle Time
+Ballistic Resistance
+Piercing Resistance
+Pistol Damage
+Pistol Fire Rate
+Rifle Damage
+Rifle Ballistic Range
+Salvage Bonus
+Shield Duration
+Slash Resistance
+Slug Damage
+Slug Range
+Spider Capacity
+Spider Duration
+Staff Damage
+Staff Fierce Damage
+Sword Fierce Range
+Staff Fierce Range
+Pistol Range
+Dual Wield Attack Radius
+Sword Fierce Damage 
+Staff Slide Distance
+2-Handed Status Chance
+Status Effect Damage
+Sword Knockback
+Damage to Garm
+Status Effect Duration
+Spider Cooldown
+Strength
+Sword Slide Distance
+Damage to Hod
+Hammer Fierce Knockback
+Spider Turret Duration
+Staff Fierce Knockback
+Spider Anti-Missile Duration
+Sword Damage
+Damage to Hel
+Damage to Grendel
+Attack Speed
+Dexterity
+Experience Bonus
+Slug Fire Rate
+Hammer Fierce Damage
+Spider Effect Radius
+Spider Damage
+Mastery: Unrelenting Blades
+Mastery: Warrior of the Twinned Claw
+Mastery: The Bears Boiling Blood
+Mastery: Stopping Power
+Mastery: Onslaught of Claws
+Mastery: Brutality
+Mastery: Shield Biter
+Mastery: Rain of Iron
+Mastery: Adept of the Burning Spear
+Mastery: Warrior of the Battle-Oar
+Mastery: Engulfing Rage
+Mastery: Spirit of Fenrir
+Mastery: Tree of Scorching Light
+Mastery: Sleep-Storm of Steel
+Mastery: Cellular Rebonding
+Mastery: Idunn's Touch
+Mastery: Tree of Raining-Iron
+Mastery: Swift of Claw
+Mastery: A Hero's Death
+Mastery: Kinship to Loki
+Mastery: Skuld's Embrace
+Mastery: The Golden Apples Blessing
+Mastery: Idunn's Boon
+Mastery: Boon of Steadfastness
+Mastery: Gifts of Idunn
+Mastery: Kinship of Gungnir
+Mastery: Borne by Valkyries
+Mastery: Ward of the NORNs
+Mastery: Wrack of Lightning Mine
+Mastery: Lament for the Battle-Slain
+Mastery: Idunn's Wish
+Mastery: Asgards Fury
+Mastery: Warrior of the Blood-Eel
+Mastery: Immolating Blade
+Mastery: Ascent to Valhalla
+Mastery: Weapon Recovery
+Mastery: Electrified Blade
+Mastery: Weight Suspension
+Mastery: Valiants Might
+Mastery: One Will Rise Above
+Mastery: Thermal Induction Mine
+Mastery: Wrecker of Mead Halls
+Mastery: Feeder of Ravens
+Mastery: Gift of Gungnir
+Mastery: Pinning Shot
+Mastery: Warrior of Tyrs Way
+Mastery: Delayed Fragmentation Warheads
+Mastery: Eagle Feeder
+Mastery: Smoothbore Weapons
+Mastery: Lightning Cascade
+Mastery: Cut to the Bone
+Mastery: Tree of Shrieking-Flame
+Mastery: Enthalpy Reduction Mines
+Mastery: Cluster Munitions
+Mastery: Defenders Resilience
+Mastery: Adept of the Light-Spear
+Mastery: The Berserkers Grief
+Mastery: Tyr's Best Work
+Mastery: Enthalpy Reduction Attack
+Mastery: Grim Resolve
+Mastery: Warrior of the Iron Fist
+Mastery: Reversal of Wyrds
+Mastery: Fimbulwinters Numbing Touch
+Mastery: Egils Blessing
+Mastery: Bullet-Tree
+Mastery: Ankle Biter
+Mastery: Hardened Carbotanium Chassis
+Mastery: Retooled Munitions Dispenser Array
+Mastery: Augmented Musculature
+Mastery: Refined Warhead Dynamics
+Mastery: Ballistic Telemetry Feedback
+Mastery: Submunition Distributor
+Mastery: Terminal Ballistics Analysis
+Mastery: Enhanced Mobility Actuators
+Mastery: Inspiring Ululation
+Mastery: Spreader of Ruin
+Mastery: Everflowing Source
+Mastery: Quick to Anger
+Mastery: A Capacity for Rage
+Mastery: Calm Under Fire
+Mastery: Hero's Heart
+Mastery: A Need to Survive
+Mastery: Desire to Overcome
+Mastery: Daring Shot
+Mastery: The Everburning Heart
+Mastery: Zealous Heart
+Mastery: Wisdom of the Ages
+Mastery: Call of Ruin
+Mastery: Spirit Renewal
+Mastery: Berserker Damage Tree
+Mastery: Berserker Speed Tree
+Mastery: Berserker Distance Tree
+Mastery: Defender Defense Tree
+Mastery: Defender Shield Tree
+Mastery: Defender Aggressive Tree
+Mastery: Commando Strategy Tree
+Mastery: Commando Long Range Tree
+Mastery: Commando Close Range Tree
+Mastery: Champion Aerial Skills Tree
+Mastery: Champion Ballistic Skills Tree
+Mastery: Champion Melee Skills Tree
+Mastery: Bio-Engineer Group Healer Tree
+Mastery: Healer Defense Tree
+Mastery: Bio-Engineer Status Effects Tree
+Mastery: Loki's Kiss
+Mastery: Human Skill Tree
+Mastery: Cyber Skill Tree
+Mastery: Berserker Skill Tree
+Mastery: Champion Skill Tree
+Mastery: Bio-Engineer Skill Tree
+Mastery: Defender Skill Tree
+Mastery: Commando Skill Tree
+Mastery: All Skills
+Increased Ammo
+Improved Dodge
+Improved Reload Speed
+Increased Ruiner Damage
+Battle Cry Damage
+Battle Cry Efficiency
+Sentient Weapon Damage
+Sentient Weapon Speed
+Bio Engineer Regeneration
+ Health
+Air Slide Speed
+Improved Equilibrium
+Aggression
+Chrome Piercing
+Armor Piercing
+Armor Cleaving
+Armor Mauling
+Ballistic Knockback
+Buff Effectiveness
+Increased Finisher Damage
+Soothing
+Improved Damage Arc
+Sentient Duration
+Ballistic Lock Distance
+Ablative Shield
+Necrotized
+Exposed
+Impact
+Target Acquisition Scrambler
+Disarmed
+Lightning Induction
+Pulse Munitions
+Rupture
+Graviton Pulse
+Enfeebled
+Leech
+Annulment
+Multi Drain
+Nano Drain
+Thermal Induction Pulse
+Enthalpy Drain
+Pierce
+Rot
+Blight
+Metalstorm
+Mobility Disruption
+Defenseless
+Slowed
+Smoke Screen
+Snared
+Softened
+None
+One Handed
+Two Handed
+Dual Wield
+Slug
+Plasma
+Laser
+Air Slide Speed
