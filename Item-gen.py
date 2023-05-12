@@ -72,62 +72,62 @@ name5 = random.choice(list5)
 
 if "Active" in name2:
     name1 = random.choice(name1replace)
-
 if "Bloodeagle" in name2:
-    name3 = "Harness"
-    name1replace.remove("Focused")
-    name1replace.append("Partial")
-    name1 = random.choice(name1replace)
-    if "Partial" in name1:
+        name3 = "Harness"
+        name1replace.remove("Focused")
+        name1replace.append("Partial")
+        name1 = random.choice(name1replace)
+if "Partial" in name1:
         combine_em_two()
-combine_em_three()
-
+        combine_em_three()
 if "Bludgeoner" in name2:
-    name1replace.append("Adept")
-    name1replace.append("Aesir")
-    name1replace.append("Ancient")
-    name1replace.append("Bold")
-    name1replace.append("Ceremonial")
-    name1replace.append("Fine")
-    name1replace.append("Grand")
-    name1replace.append("Great")
-    name1replace.append("Illustrious")
-    name1replace.append("Legendary")
-    name1replace.append("Majestic")
-    name1replace.append("Master")
-    name1replace.append("Neophyte")
-    name1replace.append("Sanguinary")
-    name1replace.append("Splendid")
-    name1replace.append("Strong")
-    name1replace.append("Valiant")
-    name1replace.append("Willful")
-    name1replace.remove("Exquisite")
-    name1replace.remove("Focused")
-    name1replace.remove("Glorious")
-    name1replace.remove("Immaculate")
-    name1replace.remove("Mithril")
-    name1replace.remove("Platinum")
-    name1replace.remove("Prime")
-    name1replace.remove("Silver")
-    name1replace.remove("Stout")
-    name1 = random.choice(name1replace)
-    combine_em_two()
+        name1replace.append("Adept")
+        name1replace.append("Aesir")
+        name1replace.append("Ancient")
+        name1replace.append("Bold")
+        name1replace.append("Ceremonial")
+        name1replace.append("Fine")
+        name1replace.append("Grand")
+        name1replace.append("Great")
+        name1replace.append("Illustrious")
+        name1replace.append("Legendary")
+        name1replace.append("Majestic")
+        name1replace.append("Master")
+        name1replace.append("Neophyte")
+        name1replace.append("Sanguinary")
+        name1replace.append("Splendid")
+        name1replace.append("Strong")
+        name1replace.append("Valiant")
+        name1replace.append("Willful")
+        name1replace.remove("Exquisite")
+        name1replace.remove("Focused")
+        name1replace.remove("Glorious")
+        name1replace.remove("Immaculate")
+        name1replace.remove("Mithril")
+        name1replace.remove("Platinum")
+        name1replace.remove("Prime")
+        name1replace.remove("Silver")
+        name1replace.remove("Stout")
+        name1 = random.choice(name1replace)
+        combine_em_two()
 
+name = name1 + " " + name2 + " " + name3 + " " + name4 + " " + name5
 
 while name in generated_names:
-    name = (
-        random.choice(list1)
-        + " "
-        + random.choice(list2)
-        + " "
-        + random.choice(list3)
-        + " "
-        + random.choice(list4)
-        + " "
-        + random.choice(list5)
-    )
+        name = (
+            random.choice(list1)
+            + " "
+            + random.choice(list2)
+            + " "
+            + random.choice(list3)
+            + " "
+            + random.choice(list4)
+            + " "
+            + random.choice(list5)
+        )
 
 generated_names_file.seek(0)
 generated_names_file.truncate()
 generated_names_file.write(name + "\n")
+
 print(name)
