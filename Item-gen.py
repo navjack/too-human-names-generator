@@ -8,6 +8,7 @@ file4 = open("list4.txt", "r", encoding="utf-8")
 file5 = open("list5.txt", "r", encoding="utf-8")
 generated_names_file = open(file_name, "r+", encoding="utf-8")
 
+
 def combine_em_five():
     global name
     name = name1 + " " + name2 + " " + name3 + " " + name4 + " " + name5
@@ -31,6 +32,7 @@ def combine_em_two():
 def combine_em_one():
     global name
     name = name1
+
 
 name1replace = [
     "Absolute",
@@ -109,24 +111,23 @@ if "Bludgeoner" in name2:
     name1replace.remove("Silver")
     name1replace.remove("Stout")
     name1 = random.choice(name1replace)
-    name = name1 + " " + name2
+    combine_em_two()
 
 
-# while name in generated_names:
-#     name = (
-#         random.choice(list1)
-#         + " "
-#         + random.choice(list2)
-#         + " "
-#         + random.choice(list3)
-#         + " "
-#         + random.choice(list4)
-#         + " "
-#         + random.choice(list5)
-#     )
+while name in generated_names:
+    name = (
+        random.choice(list1)
+        + " "
+        + random.choice(list2)
+        + " "
+        + random.choice(list3)
+        + " "
+        + random.choice(list4)
+        + " "
+        + random.choice(list5)
+    )
 
 generated_names_file.seek(0)
 generated_names_file.truncate()
 generated_names_file.write(name + "\n")
-print("\033[H\033[J")
 print(name)
