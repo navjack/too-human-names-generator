@@ -1,9 +1,30 @@
 import random
 
-# set a variable for a file that holds the current and, up until running the script again, previous generated name
 file_name = "items-generated_name.txt"
+name1replace = [
+    "Absolute",
+    "Bright",
+    "Chaotic",
+    "Exquisite",
+    "Feral",
+    "Focused",
+    "Glorious",
+    "Honed",
+    "Howling",
+    "Immaculate",
+    "Massive",
+    "Mithril",
+    "Platinum",
+    "Prime",
+    "Refined",
+    "Shimmering",
+    "Silver",
+    "Stout",
+    "Superior",
+    "Supreme",
+]
 
-# open the files that contain the parts of the item names required to generate Too Human style names along with the previously generated name file
+
 with (
     open("list1.txt", "r", encoding="utf-8") as file1,
     open("list2.txt", "r", encoding="utf-8") as file2,
@@ -12,7 +33,6 @@ with (
     open("list5.txt", "r", encoding="utf-8") as file5,
     open(file_name, "r+", encoding="utf-8") as generated_names_file,
 ):
-    # read em up and split em up
     list1 = file1.read().splitlines()
     list2 = file2.read().splitlines()
     list3 = file3.read().splitlines()
@@ -20,20 +40,50 @@ with (
     list5 = file5.read().splitlines()
     generated_names = generated_names_file.read().splitlines()
 
-    # generate a name from each part at random
-    name = (
-        random.choice(list1)
-        + " "
-        + random.choice(list2)
-        + " "
-        + random.choice(list3)
-        + " "
-        + random.choice(list4)
-        + " "
-        + random.choice(list5)
-    )
+    name1 = random.choice(list1)
+    name2 = random.choice(list2)
+    name3 = random.choice(list3)
+    name4 = random.choice(list4)
+    name5 = random.choice(list5)
 
-    # check if the name has been generated before and if so generate a new one
+    if "Active" in name2:
+        name1 = random.choice(name1replace)
+    if "Bloodeagle" in name2:
+        name1replace.remove("Focused")
+        name1replace.append("Partial")
+        name1 = random.choice(name1replace)
+    if "Bludgeoner" in name2:
+        name1replace.append("Adept")
+        name1replace.append("Aesir")
+        name1replace.append("Ancient")
+        name1replace.append("Bold")
+        name1replace.append("Ceremonial")
+        name1replace.append("Fine")
+        name1replace.append("Grand")
+        name1replace.append("Great")
+        name1replace.append("Illustrious")
+        name1replace.append("Legendary")
+        name1replace.append("Majestic")
+        name1replace.append("Master")
+        name1replace.append("Neophyte")
+        name1replace.append("Sanguinary")
+        name1replace.append("Splendid")
+        name1replace.append("Strong")
+        name1replace.append("Valiant")
+        name1replace.append("Willful")
+        name1replace.remove("Exquisite")
+        name1replace.remove("Focused")
+        name1replace.remove("Glorious")
+        name1replace.remove("Immaculate")
+        name1replace.remove("Mithril")
+        name1replace.remove("Platinum")
+        name1replace.remove("Prime")
+        name1replace.remove("Silver")
+        name1replace.remove("Stout")
+        name1 = random.choice(name1replace)
+
+    name = name1 + " " + name2 + " " + name3 + " " + name4 + " " + name5
+
     while name in generated_names:
         name = (
             random.choice(list1)
@@ -46,10 +96,10 @@ with (
             + " "
             + random.choice(list5)
         )
-    # clear the contents of the generated name file and write the new name to it
+
     generated_names_file.seek(0)
     generated_names_file.truncate()
     generated_names_file.write(name + "\n")
-# clear the screen and print the name
+
 print("\033[H\033[J")
 print(name)
